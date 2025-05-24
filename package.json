@@ -1,0 +1,27 @@
+{
+  "name": "AI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "npm run create && vitepress dev",
+    "docs:build": "npm run create && vitepress build",
+    "docs:preview": "npm run create && vitepress preview",
+    "create": "node ./tools/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "globby": "^14.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.21"
+  }
+}
