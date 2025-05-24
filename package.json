@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "npm run create && vitepress dev",
-    "docs:build": "npm run create && vitepress build",
-    "docs:preview": "npm run create && vitepress preview",
+    "dev": "npm run create && vitepress dev",
+    "build": "npm run create && vitepress build",
+    "preview": "npm run create && vitepress preview",
     "create": "node ./tools/index.js"
   },
   "keywords": [],
