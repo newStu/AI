@@ -23,7 +23,7 @@ export default defineConfig({
       "/AI_models/": AIModels,
     }, 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/newStu/AI" },
     ], 
     footer: {
       message: "Released under the MIT License.",
