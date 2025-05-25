@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": { 
+  "scripts": {
     "dev": "npm run create && vitepress dev",
     "build": "npm run create && vitepress build",
     "preview": "npm run create && vitepress preview",
@@ -21,6 +21,8 @@
     "vitepress": "^1.6.3"
   },
   "dependencies": {
-    "@types/node": "^22.15.21"
+    "@types/node": "^22.15.21",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-mathjax3": "^4.3.2"
   }
 }
