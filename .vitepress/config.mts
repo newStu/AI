@@ -1,7 +1,8 @@
-import { defineConfig } from "vitepress";
-import itKatex from "markdown-it-katex";
+import { defineConfig } from "vitepress"; 
 import mathjax3 from "markdown-it-mathjax3";
-import AIModels from "../AI_models/index";
+import AIModels from "../AI_Models/index";
+import PyTorch from "../PyTorch/index";
+import AgentDev from "../Agent_Dev/index";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -28,10 +29,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
-      { text: "AI 模型", link: "/AI_models/" },
+      { text: "AI 模型", link: "/AI_Models/" },
+      { text: "PyTorch深度学习实战", link: "/PyTorch/" },
+      { text: "Agent开发", link: "/Agent_Dev/" },
     ],
     sidebar: {
-      "/AI_models/": AIModels,
+      "/AI_Models/": AIModels,
+      "/Agent_Dev/": AgentDev,
+      "/PyTorch/": PyTorch, 
     },
     socialLinks: [{ icon: "github", link: "https://github.com/newStu/AI" }],
     footer: {

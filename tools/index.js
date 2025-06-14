@@ -134,6 +134,6 @@ function setMdFile(realPath) {
   createFiles(fileText, `${baseDir}\\index.ts`);
 }
 
-["AI_models"].forEach((item) => {
+["AI_Models", "Agent_Dev", "PyTorch"].forEach((item) => {
   setMdFile(item);
 });
